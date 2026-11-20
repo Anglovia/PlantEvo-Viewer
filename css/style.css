@@ -1,0 +1,57 @@
+:root {
+    --vert: #2f7d3b;
+    --vert-fonce: #1c4a25;
+    --creme: #f6f3ea;
+    --or: #e0a030;
+    --texte: #23301f
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    color: var(--texte);
+    background: var(--creme);
+}
+
+header {
+    background: var(--vert-fonce);
+    color: #fff;
+    padding: .8rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1.5rem;
+    align-items: center;
+    justify-content: space-between
+}
+
+header .logo {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem 1rem
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: .9rem
+}
+
+nav a:hover {
+    color: var(--or)
+}
+
