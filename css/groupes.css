@@ -1,0 +1,45 @@
+.page { 
+  padding: 2.5rem 1.25rem 5rem; 
+}
+/*modelisation du conteneur principal*/
+.scene{
+  position: relative;
+  width: 100%;
+  max-width: 51.25rem;
+  margin: 0 auto;
+  aspect-ratio: 360/500;
+  container-type: inline-size;
+}
+
+/*modelisation des different cadre*/
+.cadrealgueparagraphe{
+  left: 48%;
+  top: 2%;
+  width: 49%;
+  height: 37%;
+  z-index: 1;
+}
+
+.cadrealgue{
+  left: 3%;   
+  top: 0%;
+  width: 51%; 
+  height: 37%;
+  z-index: 2; 
+}
+
+.cadrereproduction{
+  left: 40%;  
+  top: 41%;
+  width: 55%; 
+  height: 34%;
+  z-index: 2;
+}
+
+.cadreobservation{
+  left: 3%;   
+  top: 62%;
+  width: 52%; 
+  height: 37%;
+  z-index: 1;
+}
