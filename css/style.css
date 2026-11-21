@@ -117,3 +117,47 @@ h2 {
     display: inline-block;
     padding-bottom: .2rem
 }
+
+/*section evolution*/
+
+.evolution {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: .8rem
+}
+
+.evolution a {
+    display: block;
+    background: #fff;
+    border-radius: .6rem;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--texte);
+    box-shadow: 0 2px 6px #0002
+}
+
+.evolution a:hover {
+    transform: translateY(-3px)
+}
+
+.evolution img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover
+}
+
+.evolution strong {
+    display: block;
+    padding: .5rem .6rem 0;
+    color: var(--vert-fonce)
+}
+
+.evolution span {
+    display: block;
+    padding: 0 .6rem .6rem;
+    font-size: .85rem;
+    font-family: Arial, sans-serif
+}
